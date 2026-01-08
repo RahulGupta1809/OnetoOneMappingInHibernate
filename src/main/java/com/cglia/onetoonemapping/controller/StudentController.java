@@ -30,7 +30,6 @@ public class StudentController {
 	public List<Student> getAllStudents() {
 		return studentService.getAllStudents();
 	}
-
 	@GetMapping("/view/{id}")
 	public ResponseEntity<Student> getStudentById(@PathVariable int id) {
 		Student student = studentService.getStudentById(id);
@@ -68,4 +67,5 @@ public class StudentController {
 	}
 
 }
+
 
