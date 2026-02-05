@@ -13,9 +13,9 @@ import javax.persistence.Table;
 @Table(name = "mapping_student")
 public class Student {
 
+	//Entity
 	@Id
 	@Column(name = "STUDENT_ID", unique = true, nullable = false)
-
 	private int studentId;
 
 	@Column(name = "STUDENT_NAME")
@@ -86,3 +86,4 @@ public class Student {
 	}
 
 }
+
