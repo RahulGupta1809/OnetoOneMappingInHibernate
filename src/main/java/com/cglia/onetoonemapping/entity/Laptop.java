@@ -10,6 +10,7 @@ import javax.persistence.Table;
 @Table(name = "mapping_laptop")
 public class Laptop {
 
+	//Entity
 	@Id
 	@Column(name = " LAPTOP_ID", unique = true, nullable = false)
 	private int laptopId;
@@ -56,3 +57,4 @@ public class Laptop {
 	}
 
 }
+
