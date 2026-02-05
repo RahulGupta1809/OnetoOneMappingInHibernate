@@ -55,7 +55,7 @@ public class StudentController {
 			return ResponseEntity.notFound().build();
 		}
 	}
-
+	//Delete Mapping
 	@DeleteMapping("/delete/{id}")
 	public ResponseEntity<Void> deleteStudent(@PathVariable int id) {
 		boolean deleted = studentService.deleteStudent(id);
@@ -67,3 +67,4 @@ public class StudentController {
 	}
 
 }
+
