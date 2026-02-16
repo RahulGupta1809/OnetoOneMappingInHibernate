@@ -13,7 +13,7 @@ import javax.persistence.Table;
 @Table(name = "mapping_student")
 public class Student {
 
-	//Entity
+	//Entity For Student Class 
 	@Id
 	@Column(name = "STUDENT_ID", unique = true, nullable = false)
 	private int studentId;
@@ -86,4 +86,5 @@ public class Student {
 	}
 
 }
+
 
