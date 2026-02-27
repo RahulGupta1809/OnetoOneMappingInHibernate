@@ -10,7 +10,7 @@ import javax.persistence.Table;
 @Table(name = "mapping_laptop")
 public class Laptop {
 
-	//Entity One to one Mapping For Laptopp Table
+	//Entity One to one Mapping For Laptopp Tables
 	@Id
 	@Column(name = " LAPTOP_ID", unique = true, nullable = false)
 	private int laptopId;
@@ -57,5 +57,6 @@ public class Laptop {
 	}
 
 }
+
 
 
