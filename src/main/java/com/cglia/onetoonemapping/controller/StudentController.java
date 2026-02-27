@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.cglia.onetoonemapping.entity.Student;
 import com.cglia.onetoonemapping.service.StudentService;
-// Prodcut Controller
+// Prodcut Controller change
 @RestController
 @RequestMapping("/students")
 public class StudentController {
@@ -67,5 +67,6 @@ public class StudentController {
 	}
 
 }
+
 
 
