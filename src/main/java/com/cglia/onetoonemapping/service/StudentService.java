@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.cglia.onetoonemapping.entity.Student;
 import com.cglia.onetoonemapping.repository.StudentRepository;
-//Service Class
+//Service Class New
 @Service
 public class StudentService {
 
@@ -53,4 +53,5 @@ public class StudentService {
 	}
 
 }
+
 
