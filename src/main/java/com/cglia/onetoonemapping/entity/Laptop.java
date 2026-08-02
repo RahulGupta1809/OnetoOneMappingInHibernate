@@ -1,4 +1,4 @@
-package com.cglia.onetoonemapping.entity;
+package com.practice.stream;
 
 import javax.persistence.Column;
 
@@ -10,7 +10,6 @@ import javax.persistence.Table;
 @Table(name = "mapping_laptop")
 public class Laptop {
 
-	//Entity One to one Mapping For Laptopp Tables Laptop
 	@Id
 	@Column(name = " LAPTOP_ID", unique = true, nullable = false)
 	private int laptopId;
@@ -57,7 +56,3 @@ public class Laptop {
 	}
 
 }
-
-
-
-
